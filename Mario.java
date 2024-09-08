@@ -6,7 +6,7 @@ public class Mario {
         
         Scanner input = new Scanner(System.in);
         System.out.print("enter the height: ");
-        n = input.nextInt();
+        n = input.nextInt(); //Reading input
 
         for(i = 1; i <= n; i++){
 
@@ -18,7 +18,7 @@ public class Mario {
                 System.out.print("#");
             }
 
-            System.out.print("  ");
+            System.out.print("  "); //separation b/w two half pyramids
 
             for(l = 1; l <= i; l++){
                 System.out.print("#");
