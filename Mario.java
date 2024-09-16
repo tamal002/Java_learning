@@ -10,7 +10,7 @@ public class Mario {
 
         for(i = 1; i <= n; i++){
 
-            for(j = 5; j > i; j--){
+            for(j = n; j > i; j--){
                 System.out.print(" ");
             }
 
